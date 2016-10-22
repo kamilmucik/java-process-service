@@ -12,7 +12,7 @@ public class Main implements WrapperListener {
 
 	public void controlEvent(int event) {
 		if ((event == WrapperManager.WRAPPER_CTRL_LOGOFF_EVENT )
-				&& ( WrapperManager.isLaunchedAsService() || WrapperManager.isIgnoreUserLogoffs())) {
+				&& ( WrapperManager.isLaunchedAsService())) {
 			//Ignore
 		}
 		else {
