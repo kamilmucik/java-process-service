@@ -6,7 +6,7 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 
 @Configuration
 @EnableScheduling
-@ComponentScan(basePackages="com.benjsicam")
+@ComponentScan(basePackages="pl.estrix")
 public class AppConfiguration {
 	
 }
